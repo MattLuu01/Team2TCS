@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomenavbarComponent } from './components/homenavbar/homenavbar.component';
+
 import { FooterComponent } from './components/footer/footer.component';
 import { SportsComponent } from './components/sports/sports.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
@@ -15,6 +15,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AddNewsComponent } from './components/addnews/addnews.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { AdminnavbarComponent } from './components/adminnavbar/adminnavbar.component';
+import { NewslistComponent } from './components/newslist/newslist.component';
+import { HomenavbarComponent } from './components/homenavbar/homenavbar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { RegisterComponent } from './components/register/register.component';
     HomePageComponent,
     AddNewsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AdminnavbarComponent,
+    NewslistComponent,
+    AddNewsComponent
   ],
   imports: [
     BrowserModule,
